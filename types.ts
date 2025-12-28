@@ -58,7 +58,7 @@ export interface BarberConfig {
   openTime: string;
   closeTime: string;
   slotInterval: number;
-  monthlyGoal: number; // Meta de faturamento mensal
+  monthlyGoal: number;
 }
 
 export type ViewState = 'client_login' | 'client_booking' | 'admin_login' | 'admin_shop_selection' | 'admin_dashboard';
